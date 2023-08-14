@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hb_student?useSSL=false
+    username: hbstudent
+    password: hbstudent
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
